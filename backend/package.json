@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node --watch index.js",
+    "start": "node index.js",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,8 @@
     "@genkit-ai/express": "^1.7.0",
     "@genkit-ai/googleai": "^1.7.0",
     "genkit": "^1.7.0"
+  },
+  "devDependencies": {
+    "genkit-cli": "^1.7.0"
   }
 }
